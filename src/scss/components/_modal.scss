@@ -1,0 +1,9 @@
+.modal {
+  display: none;
+}
+
+.modal.modal--is-open {
+  display: block;
+  border: 1px solid green;
+}
+

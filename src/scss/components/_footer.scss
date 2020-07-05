@@ -1,0 +1,49 @@
+footer {
+  color: $gray-light;
+  font-size: 14px;
+  text-align: center;
+  padding: 32px;
+  background: $gray-dark-bg;
+  strong {
+    color: $gray-medium;
+  }
+  .footer-links {
+    margin-bottom: 24px;
+    a {
+      margin: 0 8px;
+      color: $gray-medium;
+    }
+  }
+}
+// Cart
+.cart {
+  display: flex;
+  display: -webkit-flex;
+  margin-left: 64px;
+  position: relative;
+  z-index: 99;
+  @media (max-width: 991px) {
+    margin-left: 16px;
+  }
+}
+.cart-info {
+  @media (max-width: 991px) {
+    display: none;
+  }
+}
+.cart-info table {
+  font-size: 14px;
+  color: $primary-orange;
+  text-align: right;
+  tr {
+    padding: 0;
+    margin: 0;
+  }
+  td {
+    padding: 0 4px;
+    line-height: 16px;
+  }
+}
+
+
+
